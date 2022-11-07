@@ -1,13 +1,11 @@
 #include <iostream>
 #include "Cube.h"
+#include "Stockage.h"
 int main() {
     Cube test(10);
-    int test1=test.getCote();
-    cout << test1 << endl;
-    int test2=test.getAire();
-    cout << test2 <<endl;
-    int test3 = test.getPerimetre();
-    cout << test3 <<endl;
     string message = test.afficheInfo();
     cout << message << endl;
+    Stockage test1(10);
+    test1.ajouter(&test);
+    test1.afficherInfo();
 }

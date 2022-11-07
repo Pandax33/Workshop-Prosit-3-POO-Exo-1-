@@ -1,7 +1,7 @@
 //
 // Created by Leandro De Barros Barbosa on 07/11/2022.
 //
-#import "Object2D.h"
+#include "Object2D.h"
 #ifndef WORKSHOP3_RECTANGLE_H
 #define WORKSHOP3_RECTANGLE_H
 
